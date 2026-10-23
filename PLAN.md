@@ -85,4 +85,3 @@ Ordered roughly from easiest to hardest.
 - `npm test` passes.
 - README results match a fresh `npm run loadtest` run.
 - At least two extensions implemented by the author and explained in the README.
-- Repository has a description, topics and a license.
