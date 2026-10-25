@@ -1,0 +1,14 @@
+{
+  "name": "trafficslasher",
+  "version": "1.0.0",
+  "description": "A small reverse-proxy load balancer with health checks and rate limiting, built for learning.",
+  "main": "src/index.js",
+  "scripts": {
+    "backends": "node src/startBackends.js",
+    "start": "node src/index.js",
+    "loadtest": "node scripts/loadtest.js",
+    "test": "node scripts/selftest.js"
+  },
+  "engines": { "node": ">=18" },
+  "license": "MIT"
+}
